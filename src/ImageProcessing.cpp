@@ -1,10 +1,10 @@
 //============================================================================
-// Name			: ImageProcessing.cpp
-// Author		: Sandro R. Boschetti
-// Version		: 0.1
-// Date			: March 13, 2013
-// Copyright	: This is totally free!!!
-// Description	: Test program used to learn image manipulation using Magick++
+// Name         : ImageProcessing.cpp
+// Author       : Sandro R. Boschetti
+// Version      : 0.1
+// Date         : March 13, 2013
+// Copyright    : This is totally free!!!
+// Description  : Test program used to learn image manipulation using Magick++
 //============================================================================
 
 #include <iostream>
@@ -15,7 +15,7 @@ using namespace Magick;
 
 int main(int argc, char **argv) {
 
-// In one of the internet example I saw these two lines were said to be necessary.
+// In an internet example, I read this two lines are needed.
 // 	int main(ssize_t /*argc*/, char ** argv) {
 // 	InitializeMagick(*argv);
 
@@ -24,9 +24,9 @@ int main(int argc, char **argv) {
 	try {
 		Image image;
 		image.read(fileNameFullPath);
-		image.display();
+		image.display(); // display the image in an X11 window.
 	} catch(std::exception const& e){
-		cout << "Erro ao tentar abrir o arquivo : "<< endl;
+		cout << "There was a error while opening the file : "<< endl;
 		cout << e.what() << endl;
 	}
 
