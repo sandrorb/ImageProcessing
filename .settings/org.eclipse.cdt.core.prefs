@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.macosx.exe.debug.787325026/PATH/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.macosx.exe.debug.787325026/PATH/operation=append
+environment/project/cdt.managedbuild.config.gnu.macosx.exe.debug.787325026/PATH/value=${PATH}\:/opt/local/bin
+environment/project/cdt.managedbuild.config.gnu.macosx.exe.debug.787325026/append=true
+environment/project/cdt.managedbuild.config.gnu.macosx.exe.debug.787325026/appendContributed=true

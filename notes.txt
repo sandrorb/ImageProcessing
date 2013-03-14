@@ -1,0 +1,6 @@
+To compile a C++ program using ImageMagic installed in the system
+g++ `Magick++-config --cxxflags --cppflags` -O2 -o teste teste.cpp `Magick++-config --ldflags --libs`
+
+
+Command used to configure for compiling the ImageMagick:
+./configure --prefix=/opt --with-quantum-depth=16 --disable-dependency-tracking --with-x=yes --x-includes=/usr/X11R6/include --x-libraries=/usr/X11R6/lib/ --without-perl
